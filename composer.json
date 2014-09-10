@@ -1,0 +1,24 @@
+{
+    "name": "FILL_IN",
+    "description": "FILL_IN",
+    "minimum-stability": "stable",
+    "homepage": "FILL_IN",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "FILL_IN",
+            "email": "FILL_IN"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.20",
+        "mockery/mockery": "0.9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Philasearch\\": "lib/Philasearch/"
+        }
+    }
+}

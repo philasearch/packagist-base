@@ -1,0 +1,15 @@
+language: php
+php:
+  - 5.5
+  - 5.4
+before_install:
+  - composer install
+notifications:
+  email:
+    recipients:
+      - muntaner@philasearch.com
+      - enis@philasearch.com
+      - eisert@philasearch.com
+      - j.urbin@paper-free-office.de
+    on_success: change
+    on_failure: always
